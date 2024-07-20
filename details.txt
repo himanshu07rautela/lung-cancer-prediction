@@ -1,0 +1,25 @@
+Model Details and Results
+
+Model Used:
+- Type: Neural Network
+- Architecture:
+  - Input Layer: Dense layer with 5 neurons and ReLU activation
+  - Hidden Layer: Dense layer with 1 neuron and Sigmoid activation
+- Training Parameters:
+  - Epochs: 100
+  - Batch Size: 32
+  - Optimizer: Adam
+  - Loss Function: Binary Crossentropy
+  - Validation Split: 20%
+
+Results:
+- Test Accuracy: Approximately 55%
+  - This is the highest accuracy achieved using a neural network model for this dataset on Kaggle.
+- Training Accuracy: Up to 55%
+- Training Loss: Decreased and stabilized
+- Validation Accuracy: Up to 55%
+- Validation Loss: Decreased and stabilized
+
+Insights:
+- Accuracy Trends: Both training and validation accuracy increased and stabilized over time, indicating effective model optimization.
+- Loss Trends: Both training and validation loss decreased and stabilized, suggesting that overfitting was not a major issue.
